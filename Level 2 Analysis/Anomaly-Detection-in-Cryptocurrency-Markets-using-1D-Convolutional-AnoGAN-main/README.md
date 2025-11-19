@@ -1,6 +1,7 @@
-# Anomaly Detection in Cryptocurrency Markets using 1D Convolutional AnoGAN
+# Anomaly Detection in Cryptocurrency Markets using 1D Convolutional f-AnoGAN
 
-**Detecting pump-and-dump events and other irregular market behaviors using deep learning architectures on cryptocurrency price and order-book data.**
+
+**Detecting irregular market behaviors on order-book data.**
 
 ---
 
@@ -18,7 +19,15 @@ AnoGAN is a deep convolutional generative adversarial network (GAN) designed for
 
 The official AnoGAN implementation uses 2D convolutional layers for image data.  
 
-In this project, we adapt the framework for **time-series cryptocurrency order-book data**, replacing 2D convolutions with **1D convolutions** in both the generator and discriminator to better capture temporal patterns.
+
+This project implements f-AnoGAN (Fast AnoGAN), an improved version of AnoGAN for anomaly detection.
+Original AnoGAN uses iterative optimization to find the latent vector z for each input during inference.
+f-AnoGAN introduces an Encoder, allowing direct, fast latent inference.
+The encoder directly maps real sequences to latent space.
+
+
+We also replace the 2D convolutions with **1D convolutions** in both the generator and discriminator to better capture temporal patterns in time series data.
+
 
 ---
 
