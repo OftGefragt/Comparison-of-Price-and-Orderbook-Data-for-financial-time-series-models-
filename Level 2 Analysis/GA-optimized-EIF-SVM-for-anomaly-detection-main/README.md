@@ -35,6 +35,10 @@ A Genetic Algorithm (GA) is a metaheuristic inspired by the process of natural s
 - Extension level
 
 
+### Visualisation 
+
+![t-SNE for isoforest](imgs/tsne_eif_svm.png)
+
 ## License
 
 Personal contributions marked under MIT license, please refer to eif/license.txt for license for extended isolation forest.
