@@ -38,7 +38,10 @@ Unlike standard Deep SVDD with fixed center, we employ a dedicated center learni
 
 ## Results
 
-![PCA Visualisation](figures/pca.png)
+![PCA Visualisation](figures/pca gru.png)
+
+![t-SNE Visualisation](figures/tsne gru.png)
+
 
 ### PCA Visualization:
 - Each point represents a sequence's embedding projected from high dimensions to 2D
