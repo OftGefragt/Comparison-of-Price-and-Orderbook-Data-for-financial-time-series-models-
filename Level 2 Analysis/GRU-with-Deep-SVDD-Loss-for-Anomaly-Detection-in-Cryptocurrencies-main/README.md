@@ -40,13 +40,20 @@ Unlike standard Deep SVDD with fixed center, we employ a dedicated center learni
 
 ![PCA Visualisation](figures/pca_gru.png)
 
-![t-SNE Visualisation](figures/tsne_gru.png)
-
 
 ### PCA Visualization:
 - Each point represents a sequence's embedding projected from high dimensions to 2D
 - Normal points form compact clusters around the center
 - Anomalies scatter outside the decision boundary
+
+![t-SNE Visualisation](figures/tsne_gru.png)
+
+### t-SNE Visualization:
+-Each point represents a sequence embedding reduced from high-dimensional space to 2D using t-SNE
+-Normal samples tend to form smooth, dense manifolds where local neighborhoods are preserved
+-Anomalous samples appear as isolated points or small fragmented groups separated from the main structure, indicating deviation from learned normal patterns
+
+
 
 ### Performance Considerations:
 - Higher embedding dimensions capture more variance but risk overfitting
