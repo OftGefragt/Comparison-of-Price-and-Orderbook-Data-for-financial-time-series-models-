@@ -38,9 +38,9 @@ Unlike standard Deep SVDD with fixed center, we employ a dedicated center learni
 
 ## Results
 
-![PCA Visualisation](figures/pca gru.png)
+![PCA Visualisation](figures/pca_gru.png)
 
-![t-SNE Visualisation](figures/tsne gru.png)
+![t-SNE Visualisation](figures/tsne_gru.png)
 
 
 ### PCA Visualization:
