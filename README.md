@@ -1,4 +1,4 @@
-# Comparison-of-Price-and-Orderbook-Data-for-financial-time-series-models-
+# Comparison of Price and Orderbook Data for Anomaly Detection
 
 The rapid growth of cryptocurrency markets has intensified the need for robust anomaly detection methods to identify abnormal trading patterns and potential market manipulation. This study investigates the effectiveness of different DL approaches for detecting anomalies in cryptocurrency market data. Specifically, we compare three models:
 
@@ -15,5 +15,5 @@ To facilitate comparison and interpretability, dimensionality reduction techniqu
 Kindly refer to the model-specific readme files for further information within the repository. 
 
 Study conducted under the Artificial Intelligence course 2025, University of Eastern Finland. 
-![logo](Comparison-of-Price-and-Orderbook-Data-for-financial-time-series-models-/Level 2 Analysis/ignore/ueflogo.jpg
+![logo](/Level 2 Analysis/ignore/ueflogo.jpg
 )
