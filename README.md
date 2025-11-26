@@ -16,6 +16,7 @@ Kindly refer to the model-specific readme files for further information within t
 
 Study conducted under the Artificial Intelligence course 2025, University of Eastern Finland. 
 
-![logo](Price_vs_Orderbook_Data_for_Anomaly_Detection/Level%202%20Analysis/ignore/ueflogo.jpg)
+![logo](Level%202%20Analysis/ignore/ueflogo.jpg)
+
 
 
